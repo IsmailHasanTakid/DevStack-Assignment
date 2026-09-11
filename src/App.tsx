@@ -4,14 +4,15 @@ import Navbar from './components/Navbar/Navbar';
 
 function App() {
 
-  return(
+  return (
+    <>
+      <Navbar />
+      <Hero />
+    </>
 
-    <Navbar/>
-    <Hero/>
-    
   )
-  
-  
+
+
 }
 
 export default App;
