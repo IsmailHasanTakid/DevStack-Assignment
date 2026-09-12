@@ -15,7 +15,7 @@ const YourStack = ({ stack, onRemove, onRemoveAll }: YourStackProps) => {
             <h3 className="font-semibold text-lg text-gray-900 mb-1">Your Stack</h3>
             <p className="text-sm text-gray-500 mb-4">{stack.length} Technology Selected</p>
             {stack.length === 0 ? (
-                <p className="text-sm text-gray-400 text-center py-6">Your stack is empty.Start adding technologies!</p>
+                <p className="text-sm text-gray-400 text-center py-6">Your stack is empty.</p>
 
             ) : (
                 <>
