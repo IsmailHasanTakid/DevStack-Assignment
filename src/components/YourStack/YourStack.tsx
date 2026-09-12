@@ -1,5 +1,4 @@
 import type { Technology } from "../../Types/TechTypes";
-import { toast } from "react-toastify";
 
 import StackItem from "./StackItem";
 

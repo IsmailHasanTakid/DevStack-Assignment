@@ -1,4 +1,3 @@
-import React from 'react';
 import type { Technology } from '../../Types/TechTypes';
 import TechnologyCard from './TechnologyCard';
 

@@ -12,9 +12,6 @@ interface TechnologyCardProps {
 
 
 const TechnologyCard = ({ tech, isAdded, onAddToStack }: TechnologyCardProps) => {
-    const handleClick = () => {
-        onAddToStack(tech);
-    };
     return (
         <div className="border border-gray-200 rounded-xl p-5 relative bg-white shadow-sm flex flex-col">
             <span className="absolute top-3 right-3 text-xs px-2 py-1 rounded-full bg-pink-500/20 text-pink-400">
