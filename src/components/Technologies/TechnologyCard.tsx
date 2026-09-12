@@ -39,8 +39,8 @@ const TechnologyCard = ({ tech, isAdded, onAddToStack }: TechnologyCardProps) =>
                 onClick={() => onAddToStack(tech)}
                 disabled={isAdded}
                 className={`w-full py-2.5 rounded-lg font-medium transition flex items-center justify-center gap-2 ${isAdded
-                        ? "bg-gray-100 text-gray-400 cursor-not-allowed"
-                        : "bg-black text-white hover:opacity-80"
+                    ? "bg-gray-100 text-gray-400 cursor-not-allowed"
+                    : "bg-black text-white hover:opacity-80"
                     }`}
             >
                 {isAdded ? (

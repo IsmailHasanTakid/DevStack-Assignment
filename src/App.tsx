@@ -5,6 +5,7 @@ import type { Technology } from './Types/TechTypes';
 import Technologies from "./components/Technologies/Technologies";
 import YourStack from "./components/YourStack/YourStack";
 import { ToastContainer, toast } from "react-toastify";
+import Footer from './components/Footer/Footer';
 
 function App() {
 
@@ -59,8 +60,8 @@ function App() {
       {loading ? (
         <div className='text-center py-10'> Loading...</div>
       ) : (
-        <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10'>
-          <h2 className='text-3xl font-bold mb-2 text-gray-900'>Explore the <span className='text-pink-500'>Technologies</span></h2>
+        <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4'>
+          <h2 className='text-3xl font-bold mb-2 text-gray-900 c'>Explore the <span className='text-pink-500'>Technologies</span></h2>
           <p className='text-gray-500 mb-6'>Pick one technology per category to build your ideal stack</p>
           <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5'></div>
 
@@ -80,7 +81,6 @@ function App() {
           </div>
         </div>
       )}
-
       <ToastContainer
         position="top-right"
         autoClose={3000}
@@ -89,7 +89,7 @@ function App() {
         theme="dark"
       />
 
-
+      <Footer />
 
     </>
 

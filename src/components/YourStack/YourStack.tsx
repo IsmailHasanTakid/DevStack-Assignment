@@ -27,7 +27,7 @@ const YourStack = ({ stack, onRemove, onRemoveAll }: YourStackProps) => {
                                 onRemove={onRemove} />
                         ))}
                     </div>
-                    <button onClick={onRemoveAll} className="w-full rounded-lg border border-red-300 text-red-500 hover:text-white transition">
+                    <button onClick={onRemoveAll} className="w-full rounded-lg border border-red-300 text-red-500 hover:text-black transition py-1">
                         Remove All
                     </button>
                 </>

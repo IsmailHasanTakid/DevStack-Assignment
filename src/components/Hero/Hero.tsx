@@ -20,8 +20,8 @@ const Hero = () => {
                         fits your next project.
                     </p>
                     <div className='flex gap-4 py-2'>
-                        <button className='rounded-lg py-2 px-3 bg-gradient-to-r from-orange-500 to-orange-500'>Explore Technologies</button>
-                        <button className='rounded-lg border border-gray-200 py-2 px-5'>Learn More</button>
+                        <button className='cursor-pointer rounded-lg py-2 px-3 bg-gradient-to-r from-orange-500 to-orange-500'>Explore Technologies</button>
+                        <button className='cursor-pointer rounded-lg border border-gray-200 py-2 px-5'>Learn More</button>
                     </div>
                 </div>
 
