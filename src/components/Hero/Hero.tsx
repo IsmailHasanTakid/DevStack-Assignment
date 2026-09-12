@@ -5,7 +5,7 @@ const Hero = () => {
     return (
         <div className='py-16 md:py-24 bg-white'>
 
-            <div className="max-w-6xl mx-auto px-5 flex flex-col md:flex-row justify-between items-center gap-12">
+            <div className="pb-15 max-w-6xl mx-auto px-5 flex flex-col md:flex-row justify-between items-center gap-12">
 
 
                 <div className='md:w-1/2'>
@@ -20,7 +20,7 @@ const Hero = () => {
                         fits your next project.
                     </p>
                     <div className='flex gap-4 py-2'>
-                        <button className='rounded-lg border py-2 px-3  bg-gradient-to-r from-orange-500 to-pink-500 hover:opacity-90'>Explore Technologies</button>
+                        <button className='rounded-lg py-2 px-3 bg-gradient-to-r from-orange-500 to-orange-500'>Explore Technologies</button>
                         <button className='rounded-lg border border-gray-200 py-2 px-5'>Learn More</button>
                     </div>
                 </div>
